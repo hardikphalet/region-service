@@ -15,7 +15,7 @@ import org.trips.service_framework.models.responses.StatusResponse;
 import java.util.List;
 
 @RestController
-@RequestMapping("/country")
+@RequestMapping("/region")
 public class RegionController extends BaseController<RegionResponse, Region> {
 
     public RegionController(RegionService service) {
